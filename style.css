@@ -2,46 +2,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap');
 
-
-.menu-nav{
-    display: inline;
-    font-size: 12px;
-    margin-left: 15px;
-    font-family: "Lora"; 
+*{
+    box-sizing: border-box;
 }
 
-.logo{
+h1{
+    font-family: "Playfair";
+    font-size: 65px;
+    font-weight: 500;
+}
+h2{ font-family: "Playfair";}
+
+h3 h4 h5 {font-family: "Work Sans";}
+
+p{ font-family: "Lora";}
+
+ul {list-style: none;}
+
+body{margin: 0;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
     align-items: center;
-    display: flexbox;
-    width: 140px;
-    position: absolute;
-    left: 590px;
-    padding: 10 10 10 10;
 }
 
-.img-slide{
-    width: 1290px;
-    margin: 20px;
-    margin-top: 10px;
-    z-index: 1;
-    position: absolute;
+header{
+    background-color: rgb(255, 255,255);
 }
-.title-slide{
-   font-family: "Playfair"; 
-   font-size: 47px;
-   font-weight: 100;
-   z-index: 9;
-   position: relative;
-   top: 200px;
-   text-align: center;
+a{
+    display: none;
 }
+
 .shop-now{
-    text-align: center;
     font-family: "Work sans";
-    font-size: 14px;
-    position: absolute;
-    z-index: 9;
-    top: 368px;
-    left: 635px;
     text-decoration: underline;
+    font-size: 33px;
+    margin-top: 0px;
 }
+
+
+header .logo{
+    margin: 0;
+    padding: 20px 30px 40px 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+header .a{
+    padding: 5px 12px;
+    text-decoration: none;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(/Sabujcha/IMG/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#cards .card .card1{
+   background-position: center center;
+   background-size: cover;
+   padding: 50px;
+   margin: auto;
+   align-items: center;
+}
+
+#cards .title-card1 {
+    color: green;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#cards .title-card2 {
+    color: green;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.card1{
+    display: block;
+    align-self: center;
+    padding: 100px 10px 10px 100px;
+    background-image: url(/Sabujcha/IMG/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.card{
+    display: block;
+    align-self: center;
+    padding: 100px 10px 10px 100px;
+    background-image: url(/Sabujcha/IMG/banner-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+
+}
+
+.text-card2{
+    display: block;
+}
+
+
