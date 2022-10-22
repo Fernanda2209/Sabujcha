@@ -164,7 +164,7 @@ header .a{
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    height: 110vh;
+    height: 80vh;
     background-image: url(/Sabujcha/IMG/bg-1.jpg);
     margin-top: 90px;
 }
@@ -305,7 +305,7 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 1700px;
+    top: 1950px;
     left: 100px;
     display: inline-block;
     text-align: center;
@@ -543,7 +543,7 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 3090px;
+    top: 3350px;
     left: 100px;
     display: inline-block;
     text-align: center;
@@ -561,7 +561,7 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 3650px;
+    top: 3920px;
     left: 100px;
     display: inline-block;
     text-align: center;
@@ -766,4 +766,31 @@ header .a{
     margin: 0px;
     color: white;
     font-size: 14px;
+}
+
+#redes{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: #cccccc;
+    height: 120px;
+    margin-top: 50px;
+}
+.redes-text{
+    font-size: 20px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+.logos-payment{
+    height: 30px;
+}
+
+.title-lastes1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #333333;
+    margin-bottom: 35px;
+    padding-top: 40px;
 }
