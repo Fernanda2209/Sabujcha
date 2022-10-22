@@ -9,11 +9,14 @@
 h1{
     font-family: "Playfair";
     font-size: 65px;
-    font-weight: 500;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
 }
 h2{ font-family: "Playfair";}
 
-h3 h4 h5 {font-family: "Work Sans";}
+h3 h4 h5 {font-family: "Work Sans";
+}
 
 p{ font-family: "Lora";}
 
@@ -34,14 +37,6 @@ a{
     display: none;
 }
 
-.shop-now{
-    font-family: "Work sans";
-    text-decoration: underline;
-    font-size: 33px;
-    margin-top: 0px;
-}
-
-
 header .logo{
     margin: 0;
     padding: 20px 30px 40px 20px;
@@ -53,6 +48,7 @@ header .container{
     display: flex;
     flex-direction: column;
     display: inline-block;
+    align-items: center;
 }
 
 header .nav{
@@ -61,6 +57,13 @@ header .nav{
     display: inline-block;
     margin-top: 0px;
 }
+
+.Logo-Sabujcha{
+    width: 230px;
+    padding: 20px 10px 30px 20px;
+    justify-content: center;
+}
+
 
 header .a{
     padding: 5px 12px;
@@ -72,57 +75,269 @@ header .a{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     background-image: url(/Sabujcha/IMG/slider-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
 }
 
-#cards .card .card1{
-   background-position: center center;
-   background-size: cover;
-   padding: 50px;
-   margin: auto;
-   align-items: center;
+.title{
+    font-size: 52px;
+    font-weight: 100;
+    font-family: "Playfair";
 }
 
-#cards .title-card1 {
+.shop-now{
+    font-family: "Work sans";
+    text-decoration: underline;
+    font-size: 24px;
+    margin-top: 25px;
+}
+    
+.title-card1 {
     color: green;
     font-size: 50px;
     font-weight: 100;
-}
+    margin: 0px;
+    margin-top: 150px;
+    margin-left: -80px;
+    }
 
-#cards .title-card2 {
+.title-card2 {
     color: green;
     font-size: 50px;
     font-weight: 100;
+    margin: 0px;
+    margin-top: 150px;
+    margin-left: -80px;
+}
+
+.text-card1{
+    margin-top: 0px;
+    margin-left: -80px;
 }
 
 .card1{
-    display: block;
+    display: inline-block;
     align-self: center;
-    padding: 100px 10px 10px 100px;
     background-image: url(/Sabujcha/IMG/banner-2.png);
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 100px;
+    margin: auto;
+    margin-top: 40px;
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .card{
-    display: block;
+    display: inline-block;
     align-self: center;
-    padding: 100px 10px 10px 100px;
     background-image: url(/Sabujcha/IMG/banner-1.png);
     background-repeat: no-repeat;
     background-position: center center;
     margin: auto;
-
+    margin-top: 120px;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .text-card2{
     display: block;
+    text-align:left ;
+    margin-top: 0px ;
+    margin-left: -80px;
+}
+
+#cards-2 .container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110vh;
+    background-image: url(/Sabujcha/IMG/bg-1.jpg);
+    margin-top: 90px;
+}
+
+#cards-2{
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.title-lastes{
+    font-family: "Playfair";
+    font-size: 38px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 70px;
+    color: #575757 
+}
+
+
+.title-footer{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.text-footer{
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(32, 32, 32);
+    margin: 0px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text-lastes{
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+    color: #575757;
+}
+
+.img-products{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+}
+.img-products-2{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+.img-products-3{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+.img-products-4{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+
+.title-product{
+    font-family:"Work Sans";
+    font-size: 28px;
+    color: #575757;
+    text-align: left;
+    padding-left: 11%;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-product-1{
+    font-family:"Work Sans";
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+    padding-left: 11%;
+    margin: 0%;
+}
+
+.descuento{
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #529F0F;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    justify-content: center;
+    top: 1700px;
+    left: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    text-align: center;
+}
+
+#sub{
+    color: #575757;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.title-product-none{
+    font-family:"Work Sans";
+    font-size: 28px;
+    color: #575757;
+    text-align: left;
+    padding-left: 11%;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.text-product-none{
+    font-family:"Work Sans";
+    font-size: 20px;
+    color: #333333;
+    text-align: left;
+    padding-left: 11%;
+    margin: 0%;
+    display: none;
 }
 
 
