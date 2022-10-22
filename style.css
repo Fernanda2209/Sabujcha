@@ -188,8 +188,8 @@ header .a{
 
 .title-footer{
     font-family: "Playfair Display", serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
     color: rgb(0, 0, 0);
     margin: 0px;
     margin-left: 25px;
@@ -198,7 +198,7 @@ header .a{
 
 .text-footer{
     font-family: "Playfair Display", serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     color: rgb(32, 32, 32);
     margin: 0px;
@@ -230,7 +230,7 @@ header .a{
 .img-products-2{
     display: inline-block;
     align-self: center;
-    background-image: url(/Sabujcha/IMG/product-2.jpg);
+    background-image: url(/Sabujcha/IMG/product-3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -245,7 +245,7 @@ header .a{
 .img-products-3{
     display: inline-block;
     align-self: center;
-    background-image: url(/Sabujcha/IMG/product-3.jpg);
+    background-image: url(/Sabujcha/IMG/product-5.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -260,7 +260,7 @@ header .a{
 .img-products-4{
     display: inline-block;
     align-self: center;
-    background-image: url(/Sabujcha/IMG/product-4.jpg);
+    background-image: url(/Sabujcha/IMG/product-7.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -275,7 +275,7 @@ header .a{
 
 .title-product{
     font-family:"Work Sans";
-    font-size: 28px;
+    font-size: 25px;
     color: #575757;
     text-align: left;
     padding-left: 11%;
@@ -286,11 +286,12 @@ header .a{
 
 .text-product-1{
     font-family:"Work Sans";
-    font-size: 20px;
+    font-size: 17px;
     color: #333333;
     text-align: left;
     padding-left: 11%;
     margin: 0%;
+    padding-bottom: 30px;
 }
 
 .descuento{
@@ -340,4 +341,230 @@ header .a{
     display: none;
 }
 
+#plantica {
+    padding-left: 5%;
+    padding-right: 5%;
+   margin-top: 50px;
+   align-items: center;
+   text-align: center;
+}
 
+.planticaa{
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/testi.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+.platica-text{
+    font-size: 25px;
+    color: #333333;
+}
+
+.plantica-sub{
+    font-size: 16px;
+    font-family: "Work Sans";
+    margin-top: 47px;
+    font-weight: 100;
+    color: #333333;
+}
+
+.plantica-mini{
+    font-size: 14px;
+    font-family: "Work Sans";
+    font-weight: 100;
+    color: #575757;
+    margin-bottom: 80px;
+}
+
+#new-products {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 50px;
+    background-color: #ecececa8;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title-newproducts{
+    font-size: 40px;
+    font-weight: 100;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.text-newproducts{
+    font-size: 20px;
+    color: #575757;
+    margin-bottom: 60px;
+}
+
+.img1-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;}
+
+.img2-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+
+.img3-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+
+.img4-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+    
+
+.img5-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+}
+
+.img6-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+
+.img7-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+.img8-newproduct{
+    display: inline-block;
+    align-self: center;
+    background-image: url(/Sabujcha/IMG/product-8.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    width: 480px;
+    height: 450px;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 0px;
+    display: none;
+}
+.descuento1{
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #529F0F;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    justify-content: center;
+    top: 3090px;
+    left: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    text-align: center;
+}
+.descuento2{
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #529F0F;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    justify-content: center;
+    top: 3650px;
+    left: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    text-align: center;
+}
