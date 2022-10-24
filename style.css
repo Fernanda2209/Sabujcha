@@ -62,6 +62,7 @@ header .nav{
     width: 230px;
     padding: 20px 10px 30px 20px;
     justify-content: center;
+    display: inline;
 }
 
 
@@ -316,12 +317,40 @@ header .a{
     font-size: 20px;
 }
 
+#TRES{
+    font-size: 50px;
+    display: inline;
+    text-align: right;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+}
+
+.USD{
+    font-size: 20px;
+    display: inline;
+    text-align: right;
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    font-weight: 200;
+}
+
+.carrito{
+    display: inline;
+    text-align: right;
+    position: absolute;
+    left: 550px;
+    top: 43px;
+    width: 30px;
+}
+
 .title-product-none{
     font-family:"Work Sans";
     font-size: 28px;
     color: #575757;
     text-align: left;
-    padding-left: 11%;
+    padding-left: 10%;
     margin: 0px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -333,7 +362,7 @@ header .a{
     font-size: 20px;
     color: #333333;
     text-align: left;
-    padding-left: 11%;
+    padding-left: 10%;
     margin: 0%;
     display: none;
 }
