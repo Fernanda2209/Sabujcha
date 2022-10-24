@@ -6,6 +6,8 @@ Te han suministrado diseños gráficos y varios recursos que usarás para maquet
 La marca se enfoca principalmente en la venta de te, por lo que nos debemos enfocar en sea el protagonista de todo, ademas de esto es importante que se cumpla con
 las maquetas que se nos entregaron.
 
+Dentro de los requerimientos generales que el cliente propuso se encuentra principalmete el uso de un gitflow para el desarrollo del proyecto, por lo que dentro del repositorio se encuntran dos ramas especificas, la principal (main) que se uso para hacer el despliegue de la pagina y la rama fernanda en la que se realizaron los principales commits dentro del desarrollo.
+
 Version movil. 
 
 Las medidas que el cliente solicito rondan en los 640px para version movil, por lo que dentro proceso de diseño y programacion iniciamos con esta seccion.Como en cada 
@@ -20,4 +22,13 @@ Tal y como se muestra a continuacion
 ![image](https://user-images.githubusercontent.com/114700033/197567314-1365a486-c27a-4c42-aa14-0b5056393dd3.png)
 
 ![image](https://user-images.githubusercontent.com/114700033/197567588-e1f05838-a1ff-4e0f-8b66-34ac475ada41.png)
+
+Dentro de la maqueta que se nos entrego en cuanto a version movil habian iconos que se superponen y no permiten que la informacion se aprecie de manera adecuada por lo
+que en estos casos se cambio de manera ligera el diseño, tal y como se muestra a continuacion:
+
+![image](https://user-images.githubusercontent.com/114700033/197577601-5ca20952-56a8-4573-a2e7-5e822f9f9e19.png)
+
+![image](https://user-images.githubusercontent.com/114700033/197577664-f7aef337-f8d2-4d77-ac8b-537a9a034cad.png)
+
+Entre 
 
