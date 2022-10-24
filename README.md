@@ -30,5 +30,12 @@ que en estos casos se cambio de manera ligera el diseño, tal y como se muestra 
 
 ![image](https://user-images.githubusercontent.com/114700033/197577664-f7aef337-f8d2-4d77-ac8b-537a9a034cad.png)
 
-Entre 
+Asi como mencione anteriormente hice uso de la position absolute y relative dentro de algunos aspectos epecificos siendo estos las etiquetas de descuentos en las cards de los productos tal y como se muestra a continuacion
+
+![image](https://user-images.githubusercontent.com/114700033/197651771-12fb1701-7ebc-426e-893b-251141afdc45.png)
+
+Lo implemnte de la siguinte manera dentro del codigo
+
+![image](https://user-images.githubusercontent.com/114700033/197651830-7d225ead-9ee2-4530-91e7-56972bf75335.png)
+
 
