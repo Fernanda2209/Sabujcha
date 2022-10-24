@@ -164,7 +164,6 @@ header .a{
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
     background-image: url(/Sabujcha/IMG/bg-1.jpg);
     margin-top: 90px;
 }
@@ -305,8 +304,6 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 1950px;
-    left: 100px;
     display: inline-block;
     text-align: center;
     line-height: 60px;
@@ -543,8 +540,6 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 3350px;
-    left: 100px;
     display: inline-block;
     text-align: center;
     line-height: 60px;
@@ -561,8 +556,6 @@ header .a{
     font-weight: bolder;
     position: absolute;
     justify-content: center;
-    top: 3920px;
-    left: 100px;
     display: inline-block;
     text-align: center;
     line-height: 60px;
@@ -732,7 +725,7 @@ header .a{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 50vh;
+    height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;   
