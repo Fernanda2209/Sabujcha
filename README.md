@@ -34,8 +34,21 @@ Asi como mencione anteriormente hice uso de la position absolute y relative dent
 
 ![image](https://user-images.githubusercontent.com/114700033/197651771-12fb1701-7ebc-426e-893b-251141afdc45.png)
 
-Lo implemnte de la siguinte manera dentro del codigo
+Lo implemente de la siguinte manera dentro del codigo
 
 ![image](https://user-images.githubusercontent.com/114700033/197651830-7d225ead-9ee2-4530-91e7-56972bf75335.png)
+
+Otra parte importante del codigo radica en el uso de la media query para que se generara un diseño responsive dentro de los parametros que se entregaron
+
+![image](https://user-images.githubusercontent.com/114700033/197653480-e6ea8308-abe8-4d56-bb73-f05d6993cfc9.png)
+
+Tal y como se encuentra en la imagen, el tamaño en que se rompe el codigo de manera clara es 1024 por lo que traaje a partir del mismo.
+
+El siguiente y ultimo aspecto se relaciona directamente con el diseño responsive y es el uso de la propiedad display none para ocultar la informacion, puesto que el cliente solicito el uso unicamente de HTML y CSS algunas de las animaciones no se pudieron realizar y alguna informacion se oculto de la siguiente manera:
+
+![image](https://user-images.githubusercontent.com/114700033/197655068-dfb80299-e266-4faa-99a8-92fadf4ccc4e.png)
+
+![image](https://user-images.githubusercontent.com/114700033/197655109-db4810aa-503e-4886-936c-7233ed50fa58.png)
+
 
 
