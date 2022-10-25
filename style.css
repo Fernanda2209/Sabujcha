@@ -602,49 +602,15 @@ header .a{
     flex-direction: column; 
 }
 
-.img-lastes{
+.img-latest{
     display: inline-block;
     align-self: center;
-    background-image: url(/Sabujcha/IMG/blog-single-1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     margin: auto;
-    width: 430px;
-    height: 520px;
-    padding-right: 20%;
+    width: 600px;
+    padding-right: 10%;
     padding-left: 20%;
     margin-top: 0px;
-}
-
-.img2-lastes{
-    display: inline-block;
-    align-self: center;
-    background-image: url(/Sabujcha/IMG/blog-single-2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    width: 430px;
-    height: 520px;
-    padding-right: 20%;
-    padding-left: 20%;
-    margin-top: 0px;
-}
-
-.img3-lastes{
-    display: inline-block;
-    align-self: center;
-    background-image: url(/Sabujcha/IMG/blog-single-3.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: auto;
-    width: 430px;
-    height: 520px;
-    padding-right: 20%;
-    padding-left: 20%;
-    margin-top: 0px;
+   margin-left: 20px;
 }
 
 .title-lastes{
@@ -656,34 +622,34 @@ header .a{
     padding-top: 20px;
 }
 .fecha{
-    font-size: 17px;
+    font-size: 15px;
     color: #529F0F;
     text-align: left;
-    padding-left: 14%;
+    padding-left: 20%;
     text-decoration: underline;
 }
 .title-lastes-sec{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 100;
     color: #333333;
     margin-bottom: 25px;
-    padding-left: 14%;
+    padding-left: 20%;
     text-align: left;
     margin-top: 0px;
 }
 
 .p-lastes-sec{
-    font-size: 20px;
+    font-size: 15px;
     color: #575757;
     text-align: left;
-    padding-left: 14%;
+    padding-left: 20%;
 }
 
 .read{
-    font-size: 15px;
+    font-size: 13px;
     color: #333333;
     text-align: left;
-    padding-left: 14%;
+    padding-left: 20%;
     text-decoration: underline;
     padding-bottom: 5%;
 }
@@ -754,7 +720,7 @@ header .a{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 20vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;   
@@ -878,7 +844,7 @@ header .a{
 
     .text-card1 {
 
-        top: 940px;
+        top: 930px;
         position: absolute;
         left: 150px;
     }
@@ -920,7 +886,7 @@ header .a{
         display: flex;
         position: absolute;
         left: -350px;
-        top: 6540px
+        top: 4320px
     }
     .img2-logo{
         width: 180px;
@@ -962,7 +928,7 @@ header .a{
 
     .footer-ajus{
         position: absolute;
-        top: 3450px;
+        top: 2320px;
         left: 20px;
         width: 200px;
         
@@ -972,13 +938,13 @@ header .a{
         position: relative;
         left: 270px;
         width: 200px;
-        top: 3470px;
+        top: 2345px;
     }
 
     .footer-ajus3{
         position: relative;
         left: 530px;
-        top: 3170px;
+        top: 2035px;
         width: 200px;
     }
 
@@ -986,7 +952,7 @@ header .a{
         position: relative;
         left: 730px;
         width: 200px;
-        top: 2860px;
+        top: 1720px;
     }
 
     #redes{
@@ -999,6 +965,606 @@ header .a{
         margin-top: 50px;
 
     }
+
+    #formulario {
+        background-image: url(/Sabujcha/IMG/bg-2.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .form-1 {
+        width: 400px;
+        height: 70px;
+        border-color: #333333;
+        background-color: #ecececa8;
+        align-content: center;
+        line-height: 70px;
+        display: inline-block;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .form-2 {
+        width: 170px;
+        height: 70px;
+        background-color: #000000;
+        align-content: center;
+        line-height: 70px;
+        display: inline-block;
+        margin: 0px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .img-products-2{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: auto;
+        width: 480px;
+        height: 450px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        
+    }
+    .img-products-3{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: auto;
+        width: 480px;
+        height: 450px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        
+    }
+    .img-products-4{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: auto;
+        width: 480px;
+        height: 450px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        
+    }
+    
+    .title-product{
+        font-family:"Work Sans";
+        font-size: 25px;
+        color: #575757;
+        text-align: left;
+        padding-left: 11%;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .text-product-1{
+        font-family:"Work Sans";
+        font-size: 17px;
+        color: #333333;
+        text-align: left;
+        padding-left: 11%;
+        margin: 0%;
+        padding-bottom: 30px;
+    }
+
+    .title-product-none{
+        font-family:"Work Sans";
+        font-size: 28px;
+        color: #575757;
+        text-align: left;
+        padding-left: 10%;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .text-product-none{
+        font-family:"Work Sans";
+        font-size: 20px;
+        color: #333333;
+        text-align: left;
+        padding-left: 10%;
+        margin: 0%; 
+    }
+
+    .Logo-Sabujcha{
+        width: 200px;
+        padding: 20px 10px 30px 20px;
+        display: inline;
+    }
+
+    #TRES{
+        font-size: 50px;
+        display: inline;
+        text-align: right;
+        position: absolute;
+        left: 600px;
+        top: 30px;
+        display: none;
+    }
+    
+    .USD{
+        font-size: 20px;
+        display: inline;
+        text-align: right;
+        position: absolute;
+        left: 860px;
+        top: 30px;
+        font-weight: 200;
+    }
+    
+    .carrito{
+        display: inline;
+        text-align: right;
+        position: absolute;
+        left: 950px;
+        top: 43px;
+        width: 30px;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+    .img-lastes{
+        background-image: url(/Sabujcha/IMG/blog-single-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 30px;
+        display: block;
+    }
+
+
+    .container {
+        max-width: 980px;
+    }
+
+    .latest-product{
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 20%;
+        max-width: 30%;
+        margin-bottom: 30px;
+        margin: auto;
+        margin-right: px;
+    
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    
+    .img2-lastes{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/blog-single-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 80%;
+        margin-right: 30px;
+        display: block;
+    }
+    
+    .img3-lastes{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/blog-single-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        margin-right: 30px;
+        display: block;
+    }
+    
+    .title-lastes{
+        font-size: 40px;
+        font-weight: 100;
+        color: #333333;
+        margin-bottom: 35px;
+        text-decoration: underline;
+        padding-top: 20px;
+    }
+    .fecha{
+        font-size: 15px;
+        color: #529F0F;
+        text-align: left;
+        padding-left: 14%;
+        text-decoration: underline;
+    }
+    .title-lastes-sec{
+        font-size: 32px;
+        font-weight: 100;
+        color: #333333;
+        margin-bottom: 25px;
+        padding-left: 14%;
+        text-align: left;
+        margin-top: 0px;
+    }
+    
+    .p-lastes-sec{
+        font-size: 17px;
+        color: #575757;
+        text-align: left;
+        padding-left: 14%;
+    }
+    
+    .read{
+        font-size: 14px;
+        color: #333333;
+        text-align: left;
+        padding-left: 14%;
+        text-decoration: underline;
+        padding-bottom: 5%;
+    }
+
+    .img-products {
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-right: 30px;
+        display: flex;
+        position: relative;
+        left: -600px;
+        top: -160px;
+        z-index: 1;
+
+    }
+
+    .img-products-2 {
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-right: 30px;
+        display: flex;
+        position: relative;
+        left: -370px;
+        top: -612px;
+
+    }
+
+    .img-products-3 {
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-right: 30px;
+        display: flex;
+        position: relative;
+        left: -130px;
+        top: -1062px;
+    }
+
+    .img-products-4 {
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-right: 30px;
+        display: flex;
+        position: relative;
+        left: 100px;
+        top: -1512px;
+
+    }
+
+
+    #cards-2 .container {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/Sabujcha/IMG/bg-1.jpg);
+        margin-top: 90px;
+        height: 90vh ;
+    }
+    .descuento{
+        display: inline-block;
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background-color: #529F0F;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        text-align: center;
+        z-index: 99;
+        left: -420px;
+    }
+
+    .title-product{
+        font-family:"Work Sans";
+        font-size: 20px;
+        color: #575757;
+        text-align: left;
+        padding-left: 11%;
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    
+    .text-product-1{
+        font-family:"Work Sans";
+        display: none;
+        font-size: 14px;
+        color: #333333;
+        text-align: left;
+        padding-left: 11%;
+        margin: 0%;
+        padding-bottom: 30px;
+        
+    }
+
+    .img2-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -555px;
+        left: -120px;
+   
+    }
+
+    #new-products {
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 50px;
+        background-color: #ecececa8;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 140vh;
+    }
+    
+    .img3-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-5.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-top: 0px;
+        position: relative;
+        top: -1005px;
+        left: 120px;
+   
+    }
+    
+    .img4-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-7.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -1459px;
+        left: 360px;
+    }
+        
+    
+    .img5-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -1580px;
+        left: -370px;
+    }
+    
+    .img6-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-4.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -2035px;
+        left: -120px;
+      
+    }
+    
+    .img7-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-6.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -2488px;
+        left: 120px;
+   
+    }
+    .img8-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-8.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        padding-right: 20%;
+        padding-left: 20%;
+        margin-top: 0px;
+        position: relative;
+        top: -2940px;
+        left: 360px;
+       
+    }
+
+    .img1-newproduct{
+        display: inline-block;
+        align-self: center;
+        background-image: url(/Sabujcha/IMG/product-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 200px;
+        margin: auto;
+        width: 50px;
+        margin-top: 0px;
+        left: -370px;
+        position: relative;
+        top: -100px;
+        z-index: 1;
+
+    }
+
+    .descuento1{
+        display: inline-block;
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background-color: #529F0F;
+        color: white;
+        font-weight: bolder;
+        position: absolute;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        text-align: center;
+        z-index: 999;
+        left: 50px;
+    }
+    .descuento2{
+        display: inline-block;
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background-color: #529F0F;
+        color: white;
+        font-weight: bolder;
+        position: absolute;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        text-align: center;
+        z-index: 9999;
+        top: 2800px;
+        left: 50px;
+    }
+
+    .descuento-2{
+        display: inline-block;
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        background-color: #529F0F;
+        color: white;
+        font-weight: bolder;
+        position: absolute;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        text-align: center;
+        z-index: 9999;
+        top: 2500px;
+        left: 300px;
+    }
+
 
 
 }
